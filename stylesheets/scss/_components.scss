@@ -34,6 +34,7 @@
       .active {
         background-color: orangered !important;
       }
+     
   }
 
   .carousel-caption {
@@ -45,6 +46,12 @@
  
   }
 
+  .carousel-item{
+    img{
+      width: 100%;
+      height: 400px;
+    }
+  }
 
   .s-title{
         color: #ff7865;
@@ -81,11 +88,12 @@
     background-color: #ff7865;
     width: 100px;
     height: 100px;
-    padding-top: 20px;
+    padding: 20px;
     border-radius: 50%;
     position: relative;
     left: 500px;
     top:-100px;
+  
   }
 }
   
