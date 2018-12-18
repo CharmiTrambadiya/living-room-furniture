@@ -152,6 +152,10 @@ margin-left: 3px; */
   border: none; }
   .filter .card .card-header {
     background-color: #ffffff; }
+    .filter .card .card-header .btn-filter {
+      color: gray; }
+    .filter .card .card-header .sign {
+      margin-left: 250px; }
 .filter .row {
   padding-bottom: 10px; }
 .filter .o-circle {
