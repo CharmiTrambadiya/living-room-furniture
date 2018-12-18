@@ -62,7 +62,8 @@ body {
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 50px;
-    left: 0px; }
+    left: 0px;
+    z-index: 1; }
     .nav > .nav-links > a {
       display: block;
       width: 100%; }
@@ -73,34 +74,75 @@ body {
     overflow-y: auto; }
   .nav > .text-right {
     margin-left: 30px; } }
-.carousel-indicators {
-  position: absolute;
-  right: 0;
-  bottom: 10px;
-  /* left: 0; */
-  top: 36%;
-  z-index: 15;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 0;
-  /* margin-right: 15%;*/
-  margin-left: 40% !important;
-  list-style: none;
-  height: 100px; }
-  .carousel-indicators li {
+.carousel {
+  background-color: #fff8f2; }
+  .carousel .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    /* left: 0; */
+    top: 36%;
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+    /* margin-right: 15%;*/
+    margin-left: 42% !important;
+    list-style: none;
+    height: 100px; }
+    .carousel .carousel-indicators li {
+      position: relative;
+      left: 650px;
+      flex: 0 1 auto;
+      width: 2px !important;
+      height: 2px !important;
+      /* margin-right: 3px;
+      margin-left: 3px; */
+      margin-top: 5px;
+      background-color: darkgrey !important;
+      border-radius: 50%;
+      padding: 10px; }
+    .carousel .carousel-indicators .active {
+      background-color: orangered !important; }
+  .carousel .carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 20px;
+    text-align: center;
+    padding-left: 20px; }
+  .carousel .s-title {
+    color: #ff7865;
+    font-size: 25px !important;
+    margin-top: -280px; }
+  .carousel .s-content {
+    color: black;
+    text-align: right;
+    position: absolute;
+    left: 280px;
+    font-weight: 900; }
+  .carousel .p-content {
+    color: black;
+    text-align: right;
+    position: absolute;
+    left: 280px;
+    top: -100px; }
+  .carousel .s-btn {
     position: relative;
-    left: 650px;
-    flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
-    /* margin-right: 3px;
-    margin-left: 3px; */
-    margin-top: 5px;
-    background-color: darkgrey !important;
+    left: 60px;
+    top: 200px;
+    border-radius: 0px; }
+    .carousel .s-btn .arrow {
+      padding: 10px;
+      padding-left: 20px; }
+  .carousel .right-text {
+    background-color: #ff7865;
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
     border-radius: 50%;
-    padding: 10px; }
-  .carousel-indicators .active {
-    background-color: orangered !important; }
+    position: relative;
+    left: 500px;
+    top: -100px; }
 
 /*# sourceMappingURL=main.css.map */
