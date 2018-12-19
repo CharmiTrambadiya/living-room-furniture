@@ -29,9 +29,9 @@ body {
       display: inline-block;
       padding: 13px 10px 13px 10px;
       text-decoration: none;
-      color: black; }
+      color: #000000; }
       .nav > .nav-links > a:hover {
-        background-color: #ffb586; }
+        background-color: #ff7a67; }
   .nav > #nav-check {
     display: none; }
 
@@ -47,7 +47,7 @@ body {
       height: 50px;
       padding: 13px; }
       .nav > .nav-btn > label:hover {
-        background-color: rgba(0, 0, 0, 0.3); }
+        background-color: #000000 0, 0, 0, 0.3; }
       .nav > .nav-btn > label > span {
         display: block;
         width: 25px;
@@ -80,7 +80,7 @@ body {
     margin-top: 40px; }
     .footer .table tbody {
       font-size: 14px;
-      color: grey; }
+      color: #808080; }
   .footer .table td,
   .footer .table th {
     border: none;
@@ -96,11 +96,11 @@ body {
       display: block;
       width: 400px;
       border: none;
-      border-bottom: 1px solid #ffb586; }
+      border-bottom: 1px solid #ff7a67; }
       .footer form input:focus {
         outline: none; }
     .footer form label {
-      color: black;
+      color: #000000;
       font-size: 14px;
       font-weight: normal;
       position: absolute;
@@ -111,22 +111,22 @@ body {
     .footer form input:focus ~ label, .footer form input:valid ~ label {
       top: -10px;
       font-size: 14px;
-      color: #ffb586; }
+      color: #ff7a67; }
     .footer form input:focus ~ .bar:before, .footer form input:focus ~ .bar:after {
       width: 50%; }
     .footer form .btn-danger {
-      color: #fff;
-      background-color: #ff7865;
-      border-color: #ff7865;
+      color: #ffffff;
+      background-color: #ff7a67;
+      border-color: #ff7a67;
       border-radius: 0px;
       margin: auto; }
     .footer form .btn-danger:hover {
-      background-color: #ff7865;
-      border-color: #ff7865; }
+      background-color: #ff7a67;
+      border-color: #ff7a67; }
   .footer hr {
     margin-top: 20px; }
   .footer .f-content {
-    color: grey;
+    color: #808080;
     margin-bottom: 20px; }
     .footer .f-content .icon {
       float: right; }
@@ -159,11 +159,11 @@ body {
     /* margin-right: 3px;
 margin-left: 3px; */
       margin-top: 5px;
-      background-color: darkgrey !important;
+      background-color: #A9A9A9 !important;
       border-radius: 50%;
       padding: 10px; }
     .carousel .carousel-indicators .active {
-      background-color: orangered !important; }
+      background-color: #ff7a67 !important; }
   .carousel .carousel-caption {
     position: absolute;
     right: 0%;
@@ -174,17 +174,17 @@ margin-left: 3px; */
     width: 100%;
     height: 400px; }
   .carousel .s-title {
-    color: #ff7865;
+    color: #ff7a67;
     font-size: 25px !important;
     margin-top: -280px; }
   .carousel .s-content {
-    color: black;
+    color: #000000;
     text-align: right;
     position: absolute;
     left: 280px;
     font-weight: 900; }
   .carousel .p-content {
-    color: black;
+    color: #000000;
     text-align: right;
     position: absolute;
     left: 280px;
@@ -194,16 +194,16 @@ margin-left: 3px; */
     left: 60px;
     top: 200px;
     border-radius: 0px;
-    background-color: #ff7865;
-    border-color: #ff7865; }
+    background-color: #ff7a67;
+    border-color: #ff7a67; }
     .carousel .s-btn .arrow {
       padding: 10px;
       padding-left: 20px; }
   .carousel .s-btn:hover {
-    background-color: #ff7865;
-    border-color: #ff7865; }
+    background-color: #ff7a67;
+    border-color: #ff7a67; }
   .carousel .right-text {
-    background-color: #ff7865;
+    background-color: #ff7a67;
     width: 100px;
     height: 100px;
     padding: 20px;
@@ -217,7 +217,7 @@ margin-left: 3px; */
   .filter .card .card-header {
     background-color: #ffffff; }
     .filter .card .card-header .btn-filter {
-      color: gray;
+      color: #808080;
       position: relative;
       left: -20px; }
     .filter .card .card-header .sign {
@@ -236,11 +236,11 @@ margin-left: 3px; */
   height: 20px;
   background-color: #ffffff;
   border-radius: 50%;
-  border: 1px solid #ff7865; }
+  border: 1px solid #ff7a67; }
   .filter .o-2-circle .i-circle {
     width: 10px;
     height: 10px;
-    background-color: #ff7865;
+    background-color: #ff7a67;
     border-radius: 50%;
     position: relative;
     top: 4px;
@@ -253,7 +253,7 @@ margin-left: 3px; */
 .filter .o-4-circle {
   width: 15px;
   height: 15px;
-  background-color: #ffb586;
+  background-color: #ff7a67;
   border-radius: 50%; }
 .filter .o-1-circle {
   width: 15px;
@@ -282,7 +282,7 @@ margin-left: 3px; */
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #ff7865;
+    background: #ff7a67;
     cursor: pointer; }
 .filter .right {
   float: right; }
@@ -295,7 +295,7 @@ margin-left: 3px; */
       font-size: 16px;
       font-weight: 600;
       font-family: 'Montserrat', sans-serif;
-      color: black;
+      color: #000000;
       /* border: 1px solid #000757; */
       line-height: 40px;
       padding: 0 25px;
@@ -306,7 +306,7 @@ margin-left: 3px; */
       text-transform: uppercase;
       margin-top: 10px; }
       .filter #case-study-part .case-menu ul li:hover, .filter #case-study-part .case-menu ul li.active {
-        color: #ff7865;
+        color: #ff7a67;
         /* background-color: #0083ff; */
         border-color: #0083ff; }
   .filter #case-study-part .case-study-items {
@@ -332,32 +332,33 @@ top: -200px; */ }
         text-align: left;
         position: relative;
         left: -55px;
-        color: grey;
+        color: #808080;
         font-weight: 100; }
       .filter #case-study-part .case-study-items .details .about-chair {
         text-align: left;
         padding-bottom: 5px;
         padding-top: 10px;
-        color: #9a9a9a;
+        color: #A9A9A9;
         font-weight: 400; }
 .filter .btn-danger {
-  color: #fff;
-  background-color: #ff7865;
-  border-color: #ff7865;
+  color: #ffffff;
+  background-color: #ff7a67;
+  border-color: #ff7a67;
   border-radius: 0px;
   margin: auto;
   position: relative;
   left: 35%;
   padding: 5px 15px 5px 15px; }
 .filter .btn-danger:hover {
-  background-color: #ff7865;
-  border-color: #ff7865; }
+  background-color: #ff7a67;
+  border-color: #ff7a67; }
 
 .layered-slider .rotateslider {
   position: relative;
   height: 500px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: -150px; }
   .layered-slider .rotateslider .rotateslider-item {
     position: absolute;
     left: 50%;

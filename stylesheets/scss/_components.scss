@@ -1,5 +1,7 @@
+@import 'varaibles';
+
 .carousel {
-    background-color: #fff8f2;
+    background-color: $color-xlorange;
     .carousel-indicators {
         position: absolute;
         right: 0;
@@ -24,12 +26,12 @@
             /* margin-right: 3px;
         margin-left: 3px; */
             margin-top: 5px; // text-indent: -999px;
-            background-color: darkgrey !important;
+            background-color: $color-dgrey !important;
             border-radius: 50%;
             padding: 10px;
         }
         .active {
-            background-color: orangered !important;
+            background-color: $color-orange !important;
         }
     }
     .carousel-caption {
@@ -46,19 +48,19 @@
         }
     }
     .s-title {
-        color: #ff7865;
+        color: $color-orange;
         font-size: 25px !important;
         margin-top: -280px;
     }
     .s-content {
-        color: black;
+        color: $color-black;
         text-align: right;
         position: absolute;
         left: 280px;
         font-weight: 900;
     }
     .p-content {
-        color: black;
+        color: $color-black;
         text-align: right;
         position: absolute;
         left: 280px;
@@ -69,19 +71,19 @@
         left: 60px;
         top: 200px;
         border-radius: 0px;
-        background-color: #ff7865;
-        border-color: #ff7865;
+        background-color: $color-orange;
+        border-color: $color-orange;
         .arrow {
             padding: 10px;
             padding-left: 20px;
         }
     }
     .s-btn:hover{
-        background-color: #ff7865;
-        border-color: #ff7865;
+        background-color: $color-orange;
+        border-color: $color-orange;
     }
     .right-text {
-        background-color: #ff7865;
+        background-color: $color-orange;
         width: 100px;
         height: 100px;
         padding: 20px;
@@ -96,9 +98,9 @@
     .card {
         border: none;
         .card-header {
-            background-color: #ffffff;
+            background-color: $color-white;
             .btn-filter {
-                color: gray;
+                color: $color-grey;
                 position: relative;
                 left: -20px;
             }
@@ -122,13 +124,13 @@
     .o-2-circle {
         width: 20px;
         height: 20px;
-        background-color: #ffffff;
+        background-color: $color-white;
         border-radius: 50%;
-        border: 1px solid #ff7865;
+        border: 1px solid $color-orange;
         .i-circle {
             width: 10px;
             height: 10px;
-            background-color: #ff7865;
+            background-color: $color-orange;
             border-radius: 50%;
             position: relative;
             top: 4px;
@@ -144,7 +146,7 @@
     .o-4-circle {
         width: 15px;
         height: 15px;
-        background-color: #ffb586;
+        background-color: $color-orange;
         border-radius: 50%;
     }
     .o-1-circle {
@@ -178,7 +180,7 @@
             width: 25px;
             height: 25px;
             border-radius: 50%;
-            background: #ff7865;
+            background: $color-orange;
             cursor: pointer;
         }
     }
@@ -194,7 +196,7 @@
                 font-size: 16px;
                 font-weight: 600;
                 font-family: 'Montserrat', sans-serif;
-                color: black;
+                color: $color-black;
                 /* border: 1px solid #000757; */
                 line-height: 40px;
                 padding: 0 25px;
@@ -206,7 +208,7 @@
                 margin-top: 10px;
                 &:hover,
                 &.active {
-                    color: #ff7865;
+                    color: $color-orange;
                     /* background-color: #0083ff; */
                     border-color: #0083ff;
                 }
@@ -239,23 +241,23 @@
                     text-align: left;
                     position: relative;
                     left: -55px;
-                    color: grey;
+                    color: $color-grey;
                     font-weight: 100;
                 }
                 .about-chair {
                     text-align: left;
                     padding-bottom: 5px;
                     padding-top: 10px;
-                    color: #9a9a9a;
+                    color: $color-dgrey;
                     font-weight: 400;
                 }
             }
         }
     }
     .btn-danger {
-        color: #fff;
-        background-color: #ff7865;
-        border-color: #ff7865;
+        color: $color-white;
+        background-color: $color-orange;
+        border-color: $color-orange;
         border-radius: 0px;
         margin: auto;
         position: relative;
@@ -263,8 +265,8 @@
         padding: 5px 15px 5px 15px;
     }
     .btn-danger:hover {
-        background-color: #ff7865;
-        border-color: #ff7865;
+        background-color: $color-orange;
+        border-color: $color-orange;
     }
 }
 
@@ -275,6 +277,7 @@
         height: 500px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: -150px;
        
         .rotateslider-item {
           position: absolute;

@@ -1,3 +1,5 @@
+@import 'varaibles';
+
 * {
     box-sizing: border-box;
 }
@@ -32,9 +34,9 @@ body {
                 display: inline-block;
                 padding: 13px 10px 13px 10px;
                 text-decoration: none;
-                color: black;
+                color: $color-black;
                 &:hover {
-                    background-color: #ffb586;
+                    background-color: $color-orange;
                 }
             }
         }
@@ -57,7 +59,7 @@ body {
                 height: 50px;
                 padding: 13px;
                 &:hover {
-                    background-color: rgba(0, 0, 0, 0.3);
+                    background-color:$color-black(0, 0, 0, 0.3);
                 }
                 >span {
                     display: block;
@@ -104,7 +106,7 @@ body {
         margin-top: 40px;
         tbody {
             font-size: 14px;
-            color: grey;
+            color: $color-grey;
         }
     }
     .table td,
@@ -124,13 +126,13 @@ body {
             display: block;
             width: 400px;
             border: none;
-            border-bottom: 1px solid #ffb586;
+            border-bottom: 1px solid $color-orange;
             &:focus {
                 outline: none;
             }
         }
         label {
-            color: black;
+            color: $color-black;
             font-size: 14px;
             font-weight: normal;
             position: absolute;
@@ -144,7 +146,7 @@ body {
             &:valid~label {
                 top: -10px;
                 font-size: 14px;
-                color: #ffb586;
+                color: $color-orange;
             }
             &:focus~.bar {
                 &:before,
@@ -154,22 +156,22 @@ body {
             }
         }
         .btn-danger {
-            color: #fff;
-            background-color: #ff7865;
-            border-color: #ff7865;
+            color: $color-white;
+            background-color: $color-orange;
+            border-color: $color-orange;
             border-radius: 0px;
             margin: auto;
         }
         .btn-danger:hover {
-            background-color: #ff7865;
-            border-color: #ff7865;
+            background-color: $color-orange;
+            border-color: $color-orange;
         }
     }
     hr {
         margin-top: 20px;
     }
     .f-content {
-        color: grey;
+        color: $color-grey;
         margin-bottom: 20px;
         .icon {
             float: right;
