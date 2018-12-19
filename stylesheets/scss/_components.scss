@@ -69,10 +69,16 @@
         left: 60px;
         top: 200px;
         border-radius: 0px;
+        background-color: #ff7865;
+        border-color: #ff7865;
         .arrow {
             padding: 10px;
             padding-left: 20px;
         }
+    }
+    .s-btn:hover{
+        background-color: #ff7865;
+        border-color: #ff7865;
     }
     .right-text {
         background-color: #ff7865;
@@ -179,74 +185,85 @@
     .right {
         float: right;
     }
-
     #case-study-part {
         padding-bottom: 100px; // padding-top: 90px;
-    
-    .case-menu {
-        padding-top: 20px;
-        ul li {
-            display: inline-block;
-            font-size: 16px;
-            font-weight: 600;
-            font-family: 'Montserrat', sans-serif;
-            color: black;
-            /* border: 1px solid #000757; */
-            line-height: 40px;
-            padding: 0 25px;
-            margin: 0 3px;
-            cursor: pointer;
-            -webkit-transition: all 0.4s linear;
-            transition: all 0.4s linear;
-            text-transform: uppercase;
-            margin-top: 10px;
-            &:hover,
-            &.active {
-                color: #ff7865;
-                /* background-color: #0083ff; */
-                border-color: #0083ff;
+        .case-menu {
+            padding-top: 20px;
+            ul li {
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 600;
+                font-family: 'Montserrat', sans-serif;
+                color: black;
+                /* border: 1px solid #000757; */
+                line-height: 40px;
+                padding: 0 25px;
+                margin: 0 3px;
+                cursor: pointer;
+                -webkit-transition: all 0.4s linear;
+                transition: all 0.4s linear;
+                text-transform: uppercase;
+                margin-top: 10px;
+                &:hover,
+                &.active {
+                    color: #ff7865;
+                    /* background-color: #0083ff; */
+                    border-color: #0083ff;
+                }
             }
         }
-    }
-    .case-study-items {
-        position: relative;
-        margin-top: 30px;
-        .case-thum {
+        .case-study-items {
             position: relative;
-            img {
-                width: 200px;
-                height: 250px;
-            }
-        }
-        .details {
-            /* position: relative;
-          top: -200px; */
-            h5,
-            h6 {
-                text-align: left;
-            }
-            .price {
-                float: right;
-                position: absolute;
-                left: 200px;
-                top: 0px;
-            }
-            .time {
-                text-align: left;
+            margin-top: 30px;
+            .case-thum {
                 position: relative;
-                left: -55px;
-                color: grey;
-                font-weight: 100;
+                img {
+                    width: 200px;
+                    height: 250px;
+                }
             }
-            .about-chair {
-                text-align: left;
-                padding-bottom: 5px;
-                padding-top: 10px;
-                color: #9a9a9a;
-                font-weight: 400;
+            .details {
+                /* position: relative;
+          top: -200px; */
+                h5,
+                h6 {
+                    text-align: left;
+                }
+                .price {
+                    float: right;
+                    position: absolute;
+                    left: 200px;
+                    top: 0px;
+                }
+                .time {
+                    text-align: left;
+                    position: relative;
+                    left: -55px;
+                    color: grey;
+                    font-weight: 100;
+                }
+                .about-chair {
+                    text-align: left;
+                    padding-bottom: 5px;
+                    padding-top: 10px;
+                    color: #9a9a9a;
+                    font-weight: 400;
+                }
             }
         }
     }
-}  
-   
+    .btn-danger {
+        color: #fff;
+        background-color: #ff7865;
+        border-color: #ff7865;
+        border-radius: 0px;
+        margin: auto;
+        position: relative;
+        left: 50%;
+        padding: 5px 15px 5px 15px;
+    }
+    .btn-danger:hover {
+        background-color: #ff7865;
+        border-color: #ff7865;
+    }
 }
