@@ -91,19 +91,21 @@
         border: none;
         .card-header {
             background-color: #ffffff;
-        .btn-filter{
-          color:gray;
+            .btn-filter {
+                color: gray;
+                position: relative;
+                left: -20px;
+            }
+            .sign {
+                margin-left: 80px;
+            }
         }
-        .sign{
-          margin-left: 250px;
-        }
-        
-      }
-      
     }
-   
     .row {
         padding-bottom: 10px;
+    }
+    .color {
+        padding-right: 0px;
     }
     .o-circle {
         width: 15px;
@@ -145,175 +147,106 @@
         background-color: #c0adef;
         border-radius: 50%;
     }
-    .table td{
-      border:none;
+    .table td {
+        border: none;
     }
     .slidecontainer {
-      width: 100%;
+        width: 100%;
     }
-    
     .slider {
-      -webkit-appearance: none;
-      width: 100%;
-      height: 3px;
-      border-radius: 5px;
-      background: #d3d3d3;
-      outline: none;
-      opacity: 0.7;
-      -webkit-transition: .2s;
-      transition: opacity .2s;
-      &:hover {
-        opacity: 1;
-      }
-      &::-webkit-slider-thumb {
         -webkit-appearance: none;
-        appearance: none;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        background: #ff7865;
-        cursor: pointer;
-      }
-      
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+        &:hover {
+            opacity: 1;
+        }
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #ff7865;
+            cursor: pointer;
+        }
     }
-    .right{
-      float:right;
+    .right {
+        float: right;
     }
-
 
     #case-study-part {
-        padding-bottom: 100px;
-        padding-top: 90px;
-      }
-      
-      .case-menu {
+        padding-bottom: 100px; // padding-top: 90px;
+    
+    .case-menu {
         padding-top: 20px;
         ul li {
-          display: inline-block;
-          font-size: 16px;
-          font-weight: 600;
-          font-family: 'Montserrat', sans-serif;
-          color: black;
-          /* border: 1px solid #000757; */
-          line-height: 40px;
-          padding: 0 25px;
-          margin: 0 3px;
-          cursor: pointer;
-          -webkit-transition: all 0.4s linear;
-          transition: all 0.4s linear;
-          text-transform: uppercase;
-          margin-top: 10px;
-          &:hover, &.active {
-            color: #ff7865;
-            /* background-color: #0083ff; */
-            border-color: #0083ff;
-          }
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            color: black;
+            /* border: 1px solid #000757; */
+            line-height: 40px;
+            padding: 0 25px;
+            margin: 0 3px;
+            cursor: pointer;
+            -webkit-transition: all 0.4s linear;
+            transition: all 0.4s linear;
+            text-transform: uppercase;
+            margin-top: 10px;
+            &:hover,
+            &.active {
+                color: #ff7865;
+                /* background-color: #0083ff; */
+                border-color: #0083ff;
+            }
         }
-      }
-      
-      .case-study-items {
+    }
+    .case-study-items {
         position: relative;
         margin-top: 30px;
         .case-thum {
-          position: relative;
-          img {
-            width: 200px;
-            height: 250px;
-          }
-        }
-        .case-cont {
-          position: absolute;
-          top: 50%;
-          left: 0;
-          width: 100%;
-          transform: translateY(-50%);
-          ul {
-            transform: translateY(-100%);
-            transition: all 0.4s linear;
-            opacity: 0;
-            li {
-              display: inline-block;
-              margin: 0 8px;
-              a {
-                font-size: 18px;
-                color: #fff;
-                width: 40px;
-                height: 40px;
-                line-height: 40px;
-                background-color: #0083ff;
-                border-radius: 50%;
-              }
+            position: relative;
+            img {
+                width: 200px;
+                height: 250px;
             }
-          }
-          h3 {
-            color: #fff;
-            padding-bottom: 20px;
-            text-transform: uppercase;
-            padding-top: 25px;
-            opacity: 0;
-            transition: all 0.4s linear;
-          }
-          p {
-            color: #fff;
-            opacity: 0;
-            transition: all 0.6s linear;
-          }
         }
-        &:hover {
-          .case-cont ul {
-            transform: translateY(0);
-            opacity: 1;
-          }
-          .case-thum::before {
-            opacity: 1;
-          }
-          .case-cont {
-            h3, p {
-              opacity: 1;
+        .details {
+            /* position: relative;
+          top: -200px; */
+            h5,
+            h6 {
+                text-align: left;
             }
-          }
+            .price {
+                float: right;
+                position: absolute;
+                left: 200px;
+                top: 0px;
+            }
+            .time {
+                text-align: left;
+                position: relative;
+                left: -55px;
+                color: grey;
+                font-weight: 100;
+            }
+            .about-chair {
+                text-align: left;
+                padding-bottom: 5px;
+                padding-top: 10px;
+                color: #9a9a9a;
+                font-weight: 400;
+            }
         }
-      }
-      
-              /* .case-study-items .case-thum::before{
-          position: absolute;
-          content: '';
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(0, 7, 87, 0.6);
-          opacity: 0;
-          transition: all 0.4s linear;
-      } */
-      
-      .details {
-              /* position: relative;
-      top: -200px; */
-        h4 {
-          text-align: left;
-        }
-      }
-      
-      h6 {
-        text-align: left;
-      }
-      
-      .price {
-        float: right;
-        /* text-align: right; */
-        position: absolute;
-        left: 250px;
-        top: 0px;
-      }
-      
-      .time {
-        text-align: left;
-        position: relative;
-        left: -80px;
-      }
-      
-      .about-chair {
-        text-align: left;
-      }
+    }
+}  
+   
 }
