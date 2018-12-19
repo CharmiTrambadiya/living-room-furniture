@@ -148,75 +148,177 @@ margin-left: 3px; */
     left: 500px;
     top: -100px; }
 
-.filter .card {
-  border: none; }
-  .filter .card .card-header {
-    background-color: #ffffff; }
-    .filter .card .card-header .btn-filter {
-      color: gray; }
-    .filter .card .card-header .sign {
-      margin-left: 250px; }
-.filter .row {
-  padding-bottom: 10px; }
-.filter .o-circle {
-  width: 15px;
-  height: 15px;
-  background-color: #80aadc;
-  border-radius: 50%; }
-.filter .o-2-circle {
-  width: 20px;
-  height: 20px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  border: 1px solid #ff7865; }
-  .filter .o-2-circle .i-circle {
-    width: 10px;
-    height: 10px;
-    background-color: #ff7865;
+.filter {
+        /* .case-study-items .case-thum::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 7, 87, 0.6);
+    opacity: 0;
+    transition: all 0.4s linear;
+} */ }
+  .filter .card {
+    border: none; }
+    .filter .card .card-header {
+      background-color: #ffffff; }
+      .filter .card .card-header .btn-filter {
+        color: gray; }
+      .filter .card .card-header .sign {
+        margin-left: 250px; }
+  .filter .row {
+    padding-bottom: 10px; }
+  .filter .o-circle {
+    width: 15px;
+    height: 15px;
+    background-color: #80aadc;
+    border-radius: 50%; }
+  .filter .o-2-circle {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
     border-radius: 50%;
-    position: relative;
-    top: 4px;
-    left: 4px; }
-.filter .o-3-circle {
-  width: 15px;
-  height: 15px;
-  background-color: #9de0d7;
-  border-radius: 50%; }
-.filter .o-4-circle {
-  width: 15px;
-  height: 15px;
-  background-color: #ffb586;
-  border-radius: 50%; }
-.filter .o-1-circle {
-  width: 15px;
-  height: 15px;
-  background-color: #c0adef;
-  border-radius: 50%; }
-.filter .table td {
-  border: none; }
-.filter .slidecontainer {
-  width: 100%; }
-.filter .slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 3px;
-  border-radius: 5px;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s; }
-  .filter .slider:hover {
-    opacity: 1; }
-  .filter .slider::-webkit-slider-thumb {
+    border: 1px solid #ff7865; }
+    .filter .o-2-circle .i-circle {
+      width: 10px;
+      height: 10px;
+      background-color: #ff7865;
+      border-radius: 50%;
+      position: relative;
+      top: 4px;
+      left: 4px; }
+  .filter .o-3-circle {
+    width: 15px;
+    height: 15px;
+    background-color: #9de0d7;
+    border-radius: 50%; }
+  .filter .o-4-circle {
+    width: 15px;
+    height: 15px;
+    background-color: #ffb586;
+    border-radius: 50%; }
+  .filter .o-1-circle {
+    width: 15px;
+    height: 15px;
+    background-color: #c0adef;
+    border-radius: 50%; }
+  .filter .table td {
+    border: none; }
+  .filter .slidecontainer {
+    width: 100%; }
+  .filter .slider {
     -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #ff7865;
-    cursor: pointer; }
-.filter .right {
-  float: right; }
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s; }
+    .filter .slider:hover {
+      opacity: 1; }
+    .filter .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #ff7865;
+      cursor: pointer; }
+  .filter .right {
+    float: right; }
+  .filter #case-study-part {
+    padding-bottom: 100px;
+    padding-top: 90px; }
+  .filter .case-menu {
+    padding-top: 20px; }
+    .filter .case-menu ul li {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      color: black;
+      /* border: 1px solid #000757; */
+      line-height: 40px;
+      padding: 0 25px;
+      margin: 0 3px;
+      cursor: pointer;
+      -webkit-transition: all 0.4s linear;
+      transition: all 0.4s linear;
+      text-transform: uppercase;
+      margin-top: 10px; }
+      .filter .case-menu ul li:hover, .filter .case-menu ul li.active {
+        color: #ff7865;
+        /* background-color: #0083ff; */
+        border-color: #0083ff; }
+  .filter .case-study-items {
+    position: relative;
+    margin-top: 30px; }
+    .filter .case-study-items .case-thum {
+      position: relative; }
+      .filter .case-study-items .case-thum img {
+        width: 200px;
+        height: 250px; }
+    .filter .case-study-items .case-cont {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      transform: translateY(-50%); }
+      .filter .case-study-items .case-cont ul {
+        transform: translateY(-100%);
+        transition: all 0.4s linear;
+        opacity: 0; }
+        .filter .case-study-items .case-cont ul li {
+          display: inline-block;
+          margin: 0 8px; }
+          .filter .case-study-items .case-cont ul li a {
+            font-size: 18px;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background-color: #0083ff;
+            border-radius: 50%; }
+      .filter .case-study-items .case-cont h3 {
+        color: #fff;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        padding-top: 25px;
+        opacity: 0;
+        transition: all 0.4s linear; }
+      .filter .case-study-items .case-cont p {
+        color: #fff;
+        opacity: 0;
+        transition: all 0.6s linear; }
+    .filter .case-study-items:hover .case-cont ul {
+      transform: translateY(0);
+      opacity: 1; }
+    .filter .case-study-items:hover .case-thum::before {
+      opacity: 1; }
+    .filter .case-study-items:hover .case-cont h3, .filter .case-study-items:hover .case-cont p {
+      opacity: 1; }
+  .filter .details {
+        /* position: relative;
+top: -200px; */ }
+    .filter .details h4 {
+      text-align: left; }
+  .filter h6 {
+    text-align: left; }
+  .filter .price {
+    float: right;
+    /* text-align: right; */
+    position: absolute;
+    left: 250px;
+    top: 0px; }
+  .filter .time {
+    text-align: left;
+    position: relative;
+    left: -80px; }
+  .filter .about-chair {
+    text-align: left; }
 
 /*# sourceMappingURL=main.css.map */
