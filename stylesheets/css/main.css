@@ -31,7 +31,7 @@ body {
       text-decoration: none;
       color: black; }
       .nav > .nav-links > a:hover {
-        background-color: orange; }
+        background-color: #ffb586; }
   .nav > #nav-check {
     display: none; }
 
@@ -74,6 +74,63 @@ body {
     overflow-y: auto; }
   .nav > .text-right {
     margin-left: 30px; } }
+.footer .table {
+  margin-top: 40px; }
+  .footer .table tbody {
+    font-size: 14px;
+    color: grey; }
+.footer .table td,
+.footer .table th {
+  border: none;
+  padding: 0px; }
+.footer form {
+  margin-top: 25px; }
+  .footer form .group {
+    position: relative;
+    margin-bottom: 45px; }
+  .footer form input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #ffb586; }
+    .footer form input:focus {
+      outline: none; }
+  .footer form label {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all; }
+  .footer form input:focus ~ label, .footer form input:valid ~ label {
+    top: -10px;
+    font-size: 14px;
+    color: #ffb586; }
+  .footer form input:focus ~ .bar:before, .footer form input:focus ~ .bar:after {
+    width: 50%; }
+  .footer form .btn-danger {
+    color: #fff;
+    background-color: #ff7865;
+    border-color: #ff7865;
+    border-radius: 0px;
+    margin: auto; }
+  .footer form .btn-danger:hover {
+    background-color: #ff7865;
+    border-color: #ff7865; }
+.footer hr {
+  margin-top: 20px; }
+.footer .f-content {
+  color: grey;
+  margin-bottom: 20px; }
+  .footer .f-content .icon {
+    float: right; }
+    .footer .f-content .icon .fab {
+      padding: 0 10px 0 10px; }
+
 .carousel {
   background-color: #fff8f2; }
   .carousel .carousel-indicators {
