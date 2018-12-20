@@ -136,31 +136,24 @@ body {
   background-color: #fff8f2; }
   .carousel .carousel-indicators {
     position: absolute;
-    right: 0;
-    bottom: 10px;
-    /* left: 0; */
-    top: 36%;
-    z-index: 15;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 0;
-    /* margin-right: 15%;*/
-    margin-left: 42% !important;
-    list-style: none;
-    height: 100px; }
+    top: 50%;
+    right: 0 !important;
+    transform: translate(-50%, -50%);
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline-table;
+    left: auto; }
     .carousel .carousel-indicators li {
       position: relative;
-      left: 650px;
-      flex: 0 1 auto;
       width: 2px !important;
       height: 2px !important;
-    /* margin-right: 3px;
-margin-left: 3px; */
       margin-top: 5px;
-      background-color: #A9A9A9 !important;
       border-radius: 50%;
-      padding: 10px; }
+      padding: 10px;
+      margin-right: 3px;
+      margin-left: 3px;
+      background-color: #A9A9A9 !important; }
     .carousel .carousel-indicators .active {
       background-color: #ff7a67 !important; }
   .carousel .carousel-caption {
