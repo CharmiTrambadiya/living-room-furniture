@@ -124,9 +124,14 @@
     .o-2-circle {
         width: 20px;
         height: 20px;
-        background-color: $color-white;
+        background-color: #ffffff;
         border-radius: 50%;
-        border: 1px solid $color-orange;
+        border: 1px solid #ff7a67;
+        float: left;
+        /* left: 5px; */
+        position: relative;
+        left: 25px;
+        top: -18px;
         .i-circle {
             width: 10px;
             height: 10px;
@@ -139,21 +144,35 @@
     }
     .o-3-circle {
         width: 15px;
-        height: 15px;
-        background-color: #9de0d7;
-        border-radius: 50%;
+    height: 15px;
+    background-color: #9de0d7;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    /* right: 70px; */
+    top: -15px;
+    left: 35px;
     }
     .o-4-circle {
         width: 15px;
         height: 15px;
-        background-color: $color-orange;
+        background-color: #ff7a67;
         border-radius: 50%;
+        float: left;
+        position: relative;
+        /* right: 30px; */
+        top: -15px;
+        left: 45px
     }
     .o-1-circle {
         width: 15px;
         height: 15px;
         background-color: #c0adef;
         border-radius: 50%;
+        float: left;
+        position: relative;
+        left: 25px;
+        top: -15px;
     }
     .table td {
         border: none;
