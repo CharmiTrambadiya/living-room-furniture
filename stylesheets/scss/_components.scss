@@ -124,9 +124,9 @@
     .o-2-circle {
         width: 20px;
         height: 20px;
-        background-color: #ffffff;
+        background-color: $color-white;
         border-radius: 50%;
-        border: 1px solid #ff7a67;
+        border: 1px solid $color-orange;
         float: left;
         /* left: 5px; */
         position: relative;
@@ -156,7 +156,7 @@
     .o-4-circle {
         width: 15px;
         height: 15px;
-        background-color: #ff7a67;
+        background-color: $color-orange;
         border-radius: 50%;
         float: left;
         position: relative;
