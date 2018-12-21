@@ -17,7 +17,8 @@ body {
     .nav > .nav-header > .nav-title {
       display: inline-block;
       font-size: 22px;
-      padding: 10px 10px 10px 10px; }
+      padding: 10px 10px 10px 10px;
+      font-weight: 600; }
   .nav > .nav-btn {
     display: none; }
   .nav > .nav-links {
@@ -215,7 +216,7 @@ body {
     .filter .card .card-header .btn-filter {
       color: #808080;
       position: relative;
-      left: -20px; }
+      left: -30px; }
     .filter .card .card-header .sign {
       margin-left: 80px; }
 .filter .row {
@@ -343,6 +344,7 @@ top: -200px; */ }
       .filter #case-study-part .case-study-items .details .price {
         float: right;
         position: relative;
+        left: -5px;
         top: -60px; }
       .filter #case-study-part .case-study-items .details .time {
         text-align: left;
