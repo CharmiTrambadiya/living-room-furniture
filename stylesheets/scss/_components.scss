@@ -63,10 +63,10 @@
             top: 50px;
             height: 100%;
         }
-        h5 {
+        .title {
             position: absolute;
             left: 25px;
-
+            color: $color-orange;
            
         }
         .discount {
@@ -140,6 +140,13 @@
         height: 15px;
         background-color: #80aadc;
         border-radius: 50%;
+    }
+    .o-circle:hover{
+    
+        background-color: #80aadc;
+        border-radius: 50%;
+        border: 1px solid $color-orange;
+        // float: left;
     }
     .o-2-circle {
         width: 20px;
