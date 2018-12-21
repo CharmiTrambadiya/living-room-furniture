@@ -74,7 +74,8 @@ body {
     height: calc(100vh - 50px);
     overflow-y: auto; } }
 .footer {
-  margin-top: 50px; }
+  margin-top: 50px;
+  padding-left: 10px; }
   .footer .table {
     margin-top: 40px; }
     .footer .table tbody {
@@ -143,7 +144,8 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     display: inline-table;
-    left: auto; }
+    left: auto;
+    z-index: inherit; }
     .carousel .carousel-indicators li {
       position: relative;
       width: 2px !important;
@@ -335,16 +337,17 @@ body {
 top: -200px; */ }
       .filter #case-study-part .case-study-items .details h5,
       .filter #case-study-part .case-study-items .details h6 {
-        text-align: left; }
-      .filter #case-study-part .case-study-items .details .price {
-        float: right;
-        position: absolute;
-        left: 200px;
-        top: 0px; }
-      .filter #case-study-part .case-study-items .details .time {
         text-align: left;
         position: relative;
-        left: -55px;
+        left: 20px; }
+      .filter #case-study-part .case-study-items .details .price {
+        float: right;
+        position: relative;
+        top: -60px; }
+      .filter #case-study-part .case-study-items .details .time {
+        text-align: left;
+        position: absolute;
+        left: 35px;
         color: #808080;
         font-weight: 100; }
       .filter #case-study-part .case-study-items .details .about-chair {
@@ -352,7 +355,9 @@ top: -200px; */ }
         padding-bottom: 5px;
         padding-top: 10px;
         color: #A9A9A9;
-        font-weight: 400; }
+        font-weight: 400;
+        position: relative;
+        left: 20px; }
 .filter .btn-danger {
   color: #ffffff;
   background-color: #ff7a67;
@@ -360,7 +365,7 @@ top: -200px; */ }
   border-radius: 0px;
   margin: auto;
   position: relative;
-  left: 35%;
+  left: 25%;
   padding: 5px 15px 5px 15px; }
 .filter .btn-danger:hover {
   background-color: #ff7a67;

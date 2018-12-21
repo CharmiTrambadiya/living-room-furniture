@@ -25,6 +25,7 @@
         margin-left: 0px;
         display: inline-table;
         left:auto;
+        z-index: inherit;
 
         li {
             position: relative;
@@ -267,17 +268,19 @@
                 h5,
                 h6 {
                     text-align: left;
+                    position: relative;
+                    left:20px;
                 }
                 .price {
                     float: right;
-                    position: absolute;
-                    left: 200px;
-                    top: 0px;
+                    position: relative;
+                    // left: 200px;
+                    top: -60px;
                 }
                 .time {
                     text-align: left;
-                    position: relative;
-                    left: -55px;
+                    position: absolute;
+                    left: 35px;
                     color: $color-grey;
                     font-weight: 100;
                 }
@@ -287,6 +290,8 @@
                     padding-top: 10px;
                     color: $color-dgrey;
                     font-weight: 400;
+                    position: relative;
+                    left: 20px;
                 }
             }
         }
@@ -298,7 +303,7 @@
         border-radius: 0px;
         margin: auto;
         position: relative;
-        left: 35%;
+        left: 25%;
         padding: 5px 15px 5px 15px;
     }
     .btn-danger:hover {
