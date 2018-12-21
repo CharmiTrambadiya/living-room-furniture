@@ -1,5 +1,4 @@
 @import 'varaibles';
-
 * {
     box-sizing: border-box;
 }
@@ -8,28 +7,26 @@ body {
     margin: 0px;
     font-family: 'segoe ui';
 }
-nav{
-    a{
+
+nav {
+    a {
         color: #000;
-      }
-      
-      .active>.nav-link{
-        color: #fd7964!important;
-      }
-      
-      .active{
-        color: #fd7964!important;
-      }
-      
-      .nav-link{
+    }
+    .active>.nav-link {
+        color: #fd7964 !important;
+    }
+    .active {
+        color: #fd7964 !important;
+    }
+    .nav-link {
         padding: 0 40px;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 12px;
-      }
-      .header-icon{
+    }
+    .header-icon {
         padding-right: 0;
-        padding-left:37px;
+        padding-left: 37px;
     }
 }
 
@@ -70,7 +67,6 @@ nav{
 //         }
 //     }
 // }
-
 // @media (max-width: 600px) {
 //     .nav> {
 //         .nav-btn {
@@ -125,10 +121,9 @@ nav{
 //         // }
 //     }
 // }
-
 .footer {
-    margin-top:50px;
-    padding-left:10px;
+    margin-top: 50px;
+    padding-left: 10px;
     .table {
         margin-top: 40px;
         tbody {

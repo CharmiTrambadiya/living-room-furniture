@@ -106,14 +106,13 @@ nav .header-icon {
     right: -10px;
     left: auto;
     border-radius: 50%;
-    transform: rotate(90deg);
-    z-index: inherit; }
+    transform: rotate(90deg); }
     .slide-wrapper .carousel-indicators li {
       display: block;
       margin-bottom: 5px;
       border: 1px solid #ff7a67;
-      width: 20px;
-      height: 20px;
+      width: 10px;
+      height: 10px;
       border-radius: 50%; }
       .slide-wrapper .carousel-indicators li.active {
         margin-bottom: 5px;
@@ -267,6 +266,15 @@ nav .header-icon {
     cursor: pointer; }
 .filter .right {
   float: right; }
+.filter .clear-btn {
+  background-color: transparent;
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #fd7964;
+  text-transform: uppercase;
+  font-weight: bold; }
 .filter #case-study-part {
   padding-bottom: 100px; }
   .filter #case-study-part .case-menu {

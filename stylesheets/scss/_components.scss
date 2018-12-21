@@ -33,13 +33,13 @@
         left: auto;
         border-radius: 50%;
         transform: rotate(90deg);
-        z-index: inherit;
+        // z-index: inherit;
         li {
             display: block;
             margin-bottom: 5px;
             border: 1px solid $color-orange;
-            width: 20px;
-            height: 20px;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
             &.active {
                 margin-bottom: 5px;
@@ -67,7 +67,6 @@
             position: absolute;
             left: 25px;
             color: $color-orange;
-           
         }
         .discount {
             width: 100px;
@@ -88,14 +87,13 @@
         h1 {
             position: relative;
             left: 25px;
-            @media (min-width: 576px){
-                h1{
+            @media (min-width: 576px) {
+                h1 {
                     font-size: 12px;
+                }
             }
         }
-          
-        }
-         .s-btn {
+        .s-btn {
             position: relative;
             left: 25px;
             border-radius: 0px;
@@ -112,7 +110,6 @@
         }
     }
 }
-  
 
 .filter {
     .card {
@@ -141,12 +138,10 @@
         background-color: #80aadc;
         border-radius: 50%;
     }
-    .o-circle:hover{
-    
+    .o-circle:hover {
         background-color: #80aadc;
         border-radius: 50%;
-        border: 1px solid $color-orange;
-        // float: left;
+        border: 1px solid $color-orange; // float: left;
     }
     .o-2-circle {
         width: 20px;
@@ -233,6 +228,16 @@
     .right {
         float: right;
     }
+    .clear-btn{
+        background-color: transparent;
+        margin-top:10px;
+        padding-left: 15px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        color: #fd7964;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
     #case-study-part {
         padding-bottom: 100px; // padding-top: 90px;
         .case-menu {
