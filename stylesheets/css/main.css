@@ -134,80 +134,91 @@ body {
       .footer .f-content .icon .fab {
         padding: 0 10px 0 10px; }
 
-.carousel {
-  background-color: #fff8f2; }
-  .carousel .carousel-indicators {
+.slide-wrapper {
+  display: inline; }
+  .slide-wrapper .container {
+    padding: 0;
+    background-color: #fff8f2; }
+  .slide-wrapper .carousel-inner > .carousel-item.carousel-item-next, .slide-wrapper .carousel-inner > .carousel-item.active.carousel-item-right {
+    transform: translate3d(0, 100%, 0);
+    top: 0; }
+  .slide-wrapper .carousel-inner > .carousel-item.carousel-item-prev, .slide-wrapper .carousel-inner > .carousel-item.active.carousel-item-left {
+    transform: translate3d(0, -100%, 0);
+    top: 0; }
+  .slide-wrapper .carousel-inner > .carousel-item.next.carousel-item-left, .slide-wrapper .carousel-inner > .carousel-item.carousel-item-prev.carousel-item-right, .slide-wrapper .carousel-inner > .carousel-item.active {
+    transform: translate3d(0, 0, 0);
+    top: 0; }
+  .slide-wrapper .carousel-indicators {
     position: absolute;
-    top: 50%;
-    right: 0 !important;
-    transform: translate(-50%, -50%);
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    display: inline-table;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+    right: -10px;
     left: auto;
-    z-index: inherit; }
-    .carousel .carousel-indicators li {
-      position: relative;
-      width: 2px !important;
-      height: 2px !important;
-      margin-top: 5px;
-      border-radius: 50%;
-      padding: 10px;
-      margin-right: 3px;
-      margin-left: 3px;
-      background-color: #A9A9A9 !important; }
-    .carousel .carousel-indicators .active {
-      background-color: #ff7a67 !important; }
-  .carousel .carousel-caption {
-    position: absolute;
-    right: 0%;
-    bottom: 20px;
-    text-align: center;
-    padding-left: 20px; }
-  .carousel .carousel-item img {
-    width: 400px;
-    height: 400px; }
-  .carousel .s-title {
-    color: #ff7a67;
-    font-size: 25px !important;
-    margin-top: -280px;
-    position: relative;
-    left: -150px; }
-  .carousel .s-content {
-    color: #000000;
-    text-align: right;
-    position: absolute;
-    left: 280px;
-    font-weight: 900; }
-  .carousel .p-content {
-    color: #000000;
-    text-align: right;
-    position: absolute;
-    left: 280px;
-    top: -100px; }
-  .carousel .s-btn {
-    position: relative;
-    left: -95px;
-    top: 200px;
-    border-radius: 0px;
-    background-color: #ff7a67;
-    border-color: #ff7a67; }
-    .carousel .s-btn .arrow {
-      padding: 10px;
-      padding-left: 20px; }
-  .carousel .s-btn:hover {
-    background-color: #ff7a67;
-    border-color: #ff7a67; }
-  .carousel .right-text {
-    background-color: #ff7a67;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
     border-radius: 50%;
-    position: relative;
-    left: 500px;
-    top: -100px; }
+    transform: rotate(90deg);
+    z-index: inherit; }
+    .slide-wrapper .carousel-indicators li {
+      display: block;
+      margin-bottom: 5px;
+      border: 1px solid #ff7a67;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%; }
+      .slide-wrapper .carousel-indicators li.active {
+        margin-bottom: 5px;
+        background: #ff7a67; }
+  .slide-wrapper .fill {
+    height: 400px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover; }
+    .slide-wrapper .fill img {
+      width: 50%;
+      height: 400px; }
+    .slide-wrapper .fill .content {
+      float: right;
+      position: relative;
+      width: 50%;
+      top: 50px;
+      height: 100%; }
+    .slide-wrapper .fill h5 {
+      position: absolute;
+      left: 25px; }
+    .slide-wrapper .fill .discount {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #ff7a67;
+      float: right;
+      position: absolute;
+      top: -10px;
+      left: 200px; }
+    .slide-wrapper .fill .total {
+      position: relative;
+      top: 35px;
+      left: 35px; }
+    .slide-wrapper .fill p,
+    .slide-wrapper .fill h1 {
+      position: relative;
+      left: 25px; }
+      @media (min-width: 576px) {
+        .slide-wrapper .fill p h1,
+        .slide-wrapper .fill h1 h1 {
+          font-size: 12px; } }
+    .slide-wrapper .fill .s-btn {
+      position: relative;
+      left: 25px;
+      border-radius: 0px;
+      background-color: #ff7a67;
+      border-color: #ff7a67; }
+      .slide-wrapper .fill .s-btn .arrow {
+        padding: 10px;
+        padding-left: 20px; }
+    .slide-wrapper .fill .s-btn:hover {
+      background-color: #ff7a67;
+      border-color: #ff7a67; }
 
 .filter .card {
   border: none; }
